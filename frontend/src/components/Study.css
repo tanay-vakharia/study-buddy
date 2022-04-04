@@ -1,0 +1,16 @@
+.focused {
+  background: linear-gradient(to right, #72889D, #6a82fb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.distracted {
+  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.distracted :hover{
+  font-weight: 900;
+}
